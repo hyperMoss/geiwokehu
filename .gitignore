@@ -1,0 +1,51 @@
+# Node.js dependencies and package-manager caches
+node_modules/
+.pnpm-store/
+
+# Next.js and TypeScript build output
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# Python virtual environments, bytecode and tool caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local secrets and environment overrides
+.env
+.env.*
+!.env.example
+
+# Local crawler data, databases, browser profiles and logs
+.local-data/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Browser-test output
+playwright-report/
+test-results/
+blob-report/
+
+# Local assistant/editor and operating-system state
+.workbuddy/
+.idea/
+.DS_Store
+Thumbs.db
